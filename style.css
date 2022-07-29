@@ -24,3 +24,10 @@
     height: 75vh;
   }
 }
+.work-bg {
+  background-color: #f4fafd;
+}
+/* icons  */
+.star-bgColor {
+  color: rgb(247, 213, 64);
+}
