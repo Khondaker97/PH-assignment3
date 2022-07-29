@@ -9,25 +9,43 @@
   height: 100%;
   object-position: center;
 }
-@media only screen and (max-width: 576px) {
-  .carousel-container {
-    height: 35vh;
-  }
-}
-@media only screen and (min-width: 577px) and (max-width: 768px) {
-  .carousel-container {
-    height: 55vh;
-  }
-}
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  .carousel-container {
-    height: 75vh;
-  }
-}
+/* explore  */
 .work-bg {
   background-color: #f4fafd;
 }
 /* icons  */
 .star-bgColor {
   color: rgb(247, 213, 64);
+}
+/* company */
+.companyWidth {
+  width: 100px;
+}
+/* accordion  */
+.accordWidth {
+  width: 60%;
+}
+@media only screen and (max-width: 576px) {
+  .carousel-container {
+    height: 35vh;
+  }
+  .accordWidth {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .carousel-container {
+    height: 55vh;
+  }
+  .accordWidth {
+    width: 85%;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .carousel-container {
+    height: 75vh;
+  }
+  .accordWidth {
+    width: 75%;
+  }
 }
